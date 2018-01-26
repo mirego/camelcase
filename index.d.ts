@@ -1,7 +1,7 @@
-declare function camelCase (value: string, locale?: string, mergeNumbers?: boolean): string;
+declare function camelCase (value: string | string[]): string;
 
 declare namespace camelCase {
-	export function camelCase (value: string, locale?: string, mergeNumbers?: boolean): string;
+	export function camelCase (value: string | string[]): string;
 }
 
 export = camelCase;
